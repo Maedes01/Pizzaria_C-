@@ -1,0 +1,15 @@
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\bin\Debug\net6.0\Pizzaria.exe
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\bin\Debug\net6.0\Pizzaria.deps.json
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\bin\Debug\net6.0\Pizzaria.runtimeconfig.json
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\bin\Debug\net6.0\Pizzaria.dll
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\bin\Debug\net6.0\Pizzaria.pdb
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\Pizzaria.csproj.AssemblyReference.cache
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\Pizzaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\Pizzaria.AssemblyInfoInputs.cache
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\Pizzaria.AssemblyInfo.cs
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\Pizzaria.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\Pizzaria.dll
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\refint\Pizzaria.dll
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\Pizzaria.pdb
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\Pizzaria.genruntimeconfig.cache
+C:\Users\Pichau\OneDrive\Documentos\Trabalho da facul\Pizzaria\obj\Debug\net6.0\ref\Pizzaria.dll
