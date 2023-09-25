@@ -1,62 +1,61 @@
 using System;
 using System.Collections.Generic;
-using System;
-using System.Collections.Generic;
 
-namespace ProjetoPizza
+namespace ProjetoPizzaria
 {
-    public class Pizza
+    public class ReceitaPizza
     {
-        public string Nome { get; set; }
-        public string Sabores { get; set; }
-        public decimal Preco { get; set; }
+        public string Tipo { get; set; }
+        public string Ingredientes { get; set; }
+        public decimal Valor { get; set; }
     }
 
-    public static class CriadorPizza
+    public static class Pizzaria
     {
-        public static List<Pizza> PizzasCriadas = new List<Pizza>();
+        public static List<ReceitaPizza> Receitas = new List<ReceitaPizza>();
 
-        public static void CriarNova()
+        public static void CriarReceita()
         {
-            Console.WriteLine("Adicionar uma Pizza!");
-            Console.WriteLine("Digite o nome da Pizza:");
-            var nome = Console.ReadLine();
+            Console.WriteLine("Criar uma nova receita de pizza:");
+            Console.WriteLine("Digite o tipo de pizza:");
+            var tipo = Console.ReadLine();
 
-            Console.WriteLine("Digite os sabores da Pizza separados por vírgula:");
-            var sabores = Console.ReadLine();
+            Console.WriteLine("Digite os ingredientes da pizza separados por vírgula:");
+            var ingredientes = Console.ReadLine();
 
-            Console.WriteLine("Digite o preço da Pizza (formato 00,00):");
-            var precoStr = Console.ReadLine();
+            Console.WriteLine("Digite o valor da pizza (formato 00,00):");
+            var valorStr = Console.ReadLine();
 
-            if (decimal.TryParse(precoStr, out decimal preco))
+            if (decimal.TryParse(valorStr, out decimal valor))
             {
-                var pizza = new Pizza
+                var receita = new ReceitaPizza
                 {
-                    Nome = nome,
-                    Sabores = sabores,
-                    Preco = preco
+                    Tipo = tipo,
+                    Ingredientes = ingredientes,
+                    Valor = valor
                 };
 
-                PizzasCriadas.Add(pizza);
+                Receitas.Add(receita);
 
-                Console.WriteLine("Nome da pizza: " + pizza.Nome);
-                Console.WriteLine("Esses são os sabores da pizza: " + pizza.Sabores);
-                Console.WriteLine("Preço da pizza: " + pizza.Preco.ToString("0.00"));
-                Console.WriteLine("PIZZA CRIADA COM SUCESSO !!!");
+                Console.WriteLine("Tipo de pizza: " + receita.Tipo);
+                Console.WriteLine("Ingredientes: " + receita.Ingredientes);
+                Console.WriteLine("Valor da pizza: " + receita.Valor.ToString("0.00"));
+                Console.WriteLine("Receita de pizza criada com sucesso!");
             }
         }
 
-        public static void VisualizarPizzas()
+        public static void VerReceitas()
         {
-            Console.WriteLine("Pizzas Criadas:");
-            foreach (var pizza in PizzasCriadas)
+            Console.WriteLine("Receitas de Pizza Criadas:");
+            foreach (var receita in Receitas)
             {
-                Console.WriteLine("Nome da pizza: " + pizza.Nome);
-                Console.WriteLine("Sabores da pizza : " + pizza.Sabores);
-                Console.WriteLine("Preço da pizza: " + pizza.Preco.ToString("0.00"));
+                Console.WriteLine("Tipo de pizza: " + receita.Tipo);
+                Console.WriteLine("Ingredientes: " + receita.Ingredientes);
+                Console.WriteLine("Valor da pizza: " + receita.Valor.ToString("0.00"));
             }
         }
     }
 }
+
 
 
